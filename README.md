@@ -54,7 +54,8 @@ To reproduce the analysis and explore the findings in your own environment, foll
     cd Order-in-Chaos-Understanding-Criminal-Patterns-in-Germany
     ```
 
-3. **Open the `exp_RA_001_TimeSeriesAnalysis.ipynb` notebook** in a Jupyter environment. If you prefer, you can use platforms like Google Colab for easy cloud-based notebook execution.
+3. **Open the notebook** (e.g., `exp_ALL_001_BasicDataAnalysis.ipynb`) in a Jupyter environment. If you prefer, you can use platforms like Google Colab for easy cloud-based notebook execution.
+
 
 4. In the notebook, there are sections where you need to load specific datasets. To do this:
 
