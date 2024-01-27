@@ -2,6 +2,8 @@
 
 Crime prevention and criminal justice are pressing concerns in contemporary society. This project delves into police crime statistics from 2002 to 2022, obtained from the [*Bundeskriminalamt*](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). Our analysis focuses on predicting future case numbers, understanding frequent offenses, age distribution of suspects, and changes in clearance rates. We employ statistical methods and visualizations to enhance comprehension of underlying patterns.
 
+
+
 ## Datasets
 
 For this project, we used multiple datasets obtained from the *Bundeskriminalamt* [website](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). These datasets cover police crime statistics spanning from 2002 to 2022 and are stored in various formats.
