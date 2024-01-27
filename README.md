@@ -65,7 +65,7 @@ To reproduce the analysis and explore the findings in your own environment, foll
 
    c. After uploading the datasets, modify the notebook cells that load data to ensure they reference the correct names. If the names you are using differ from the original names, make the necessary modifications in the notebook to reflect the uploaded dataset names.
 
-Remember to run the notebook cells sequentially, paying attention to any required dependencies or data loading steps.
+Remember to run the notebook cells sequentially.
 
 
 Feel free to reach out if you encounter any issues or have questions. 
