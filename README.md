@@ -57,7 +57,7 @@ To reproduce the analysis and explore the findings in your own environment, foll
 3. **Open the notebook** (e.g., `exp_ALL_001_BasicDataAnalysis.ipynb`) in a Jupyter environment. If you prefer, you can use platforms like Google Colab for easy cloud-based notebook execution.
 
 
-4. Download datasets from the *dat* directory in this repository and upload them to your analysis environment (e.g., Google Colab). Ensure that the notebook cells loading data reference the correct names, making modifications if using different names from the originals.
+4. **Download datasets** from the *dat* directory in this repository and upload them to your analysis environment (e.g., Google Colab). Ensure that the notebook cells loading data reference the correct names, making modifications if using different names from the originals.
 
 Remember to run the notebook cells sequentially.
 
