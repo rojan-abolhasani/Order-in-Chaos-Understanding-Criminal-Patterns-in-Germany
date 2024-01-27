@@ -25,7 +25,7 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
 
 ## Datasets
 
-For this project, we used multiple datasets obtained from the *Bundeskriminalamt* [website](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). These datasets cover police crime statistics spanning from 2002 to 2022 and are stored in various formats.
+For this project, we used multiple datasets obtained from [*Bundeskriminalamt*](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). These datasets cover police crime statistics spanning from 2002 to 2022 and are stored in various formats.
 
 - **2002 to 2013**: Data for these years is stored in PDF files, offering a concise overview of crime trends. Key features include the offence key, offence category name, number of recorded cases, change in the number of recorded cases compared to the previous year, and clearance rates in percentage. We extracted this data into Excel files (Cases20**.xlsx).
 
