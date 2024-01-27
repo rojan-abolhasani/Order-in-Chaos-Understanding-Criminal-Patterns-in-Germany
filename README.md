@@ -9,7 +9,7 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
 - **dat**: Includes datasets, notably our crime statistics datasets obtained from [*Bundeskriminalamt*](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). For detailed information on the datasets, refer to the [Datasets](#datasets) section below.
 - **exp**: Includes Jupyter notebooks for detailed experiments.
   - `exp_ALL_001_BasicDataAnalysis.ipynb`: Some simple analysis to understand the provided datasets better.
-  - `exp_DM_BS_001_AgeGroupAnalysis.ipynb`: 
+  - `exp_DM_BS_001_AgeGroupAnalysis.ipynb`: Analysis of suspect ages and permutation test.
   - `exp_DM_001_PredictingCaseNumbersWithModels.ipynb`: Prediction of the total number of cases for 2023 (not yet officially available) with regression models.
   - `exp_RA_001_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
   - `exp_DM_RA_001_ClearanceRateAnalysis.ipynb`: Analysis of the clearance rates for each year, comparing it to the total number of cases and grouped by categories of offenses.
@@ -17,12 +17,11 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
   - `neurips2015`: A directory for our paper.
     - `paper.tex`: LaTeX source file for the paper.
   - `fig`: Contains Python scripts and PDF files for shared figures.
-    - `fig_name1.py`: Python script for generating ...
-    - `fig_name2.py`: Python script for generating ...
-    - `fig_name3.py`: Python script for generating ...
-    - `fig_name1.pdf`: Generated ... figure.
-    - `fig_name2.pdf`: Generated ... figure.
-    - `fig_name3.pdf`: Generated ... figure.
+    - `introduction_plot.pdf`: Generated figure displaying the main data from the files (Total number of cases, suspect numbers, victim numbers and clearance rates).
+    - `prediction_models.pdf`: Generated figure showing the performance of different regression models fitted to the total case numbers.
+    - `age_group_distribution.pdf`: Generated figure displaying the distribution of suspect ages.
+    - `clearance_rate_heatmap.pdf`: Generated heatmap showing the clearance rates for each offence between 2014 and 2022.
+    - `top_5_offences_among_non_germans.pdf`: Generated figure depicting the top 5 offences among non-German suspects in years 2014-2022.
 
 
 ## Datasets
