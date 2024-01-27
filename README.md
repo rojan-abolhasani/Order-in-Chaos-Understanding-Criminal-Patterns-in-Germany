@@ -5,7 +5,6 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
 
 ## Project Structure
 
-- **src**: we should write if we have sth in src
 - **dat**: Includes datasets, notably our crime statistics datasets obtained from [*Bundeskriminalamt*](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). For detailed information on the datasets, refer to the [Datasets](#datasets) section below.
 - **exp**: Includes Jupyter notebooks for detailed experiments.
   - `exp_ALL_001_BasicDataAnalysis.ipynb`: Some simple analysis to understand the provided datasets better.
