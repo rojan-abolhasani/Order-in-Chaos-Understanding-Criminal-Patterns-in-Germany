@@ -14,7 +14,7 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
   - `exp_RA_001_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
   - `exp_DM_RA_001_ClearanceRateAnalysis.ipynb`: Analysis of the clearance rates for each year, comparing it to the total number of cases and grouped by categories of offenses.
 - **doc**: Stores papers and figures related to the project.
-  - `neurips2015`: A directory for our paper.
+  - `ChaosInOrder`: A directory for our paper.
     - `paper.tex`: LaTeX source file for the paper.
   - `fig`: Contains Python scripts and PDF files for shared figures.
     - `introduction_plot.pdf`: Generated figure displaying the main data from the files (Total number of cases, suspect numbers, victim numbers and clearance rates).
