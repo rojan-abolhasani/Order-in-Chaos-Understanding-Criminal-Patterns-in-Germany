@@ -6,11 +6,11 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
 ## Project Structure
 
 - **src**: we should write if we have sth in src
-- **dat**: Includes datasets, notably our crime statistics datasets obtained from the *Bundeskriminalamt* [website](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). For detailed information on the datasets, refer to the [Datasets](#datasets) section below.
+- **dat**: Includes datasets, notably our crime statistics datasets obtained from [*Bundeskriminalamt*](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). For detailed information on the datasets, refer to the [Datasets](#datasets) section below.
 - **exp**: Includes Jupyter notebooks for detailed experiments.
   - `exp_ALL_001_BasicDataAnalysis.ipynb`: 
   - `exp_DM_BS_001_AgeGroupAnalysis.ipynb`:
-  - `exp_RA_001_TimeSeriesAnalysis.ipynb`:
+  - `exp_RA_001_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
 - **doc**: Stores papers and figures related to the project.
   - `neurips2015`: A directory for our paper.
     - `paper.tex`: LaTeX source file for the paper.
