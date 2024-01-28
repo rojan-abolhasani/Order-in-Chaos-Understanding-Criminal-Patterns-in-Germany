@@ -7,13 +7,13 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
 
 - **dat**: Includes datasets, notably our crime statistics datasets obtained from [*Bundeskriminalamt*](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). For detailed information on the datasets, refer to the [Datasets](#datasets) section below.
 - **exp**: Includes Jupyter notebooks for detailed experiments.
-  - `exp_ALL_001_BasicDataAnalysis.ipynb`: Some simple analysis to understand the provided datasets better.
-  - `exp_DM_BS_001_AgeGroupAnalysis.ipynb`: Analysis of suspect ages and permutation test.
-  - `exp_DM_001_PredictingCaseNumbersWithModels.ipynb`: Prediction of the total number of cases for 2023 (not yet officially available) with regression models.
-  - `exp_RA_001_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
-  - `exp_DM_RA_001_ClearanceRateAnalysis.ipynb`: Analysis of the clearance rates for each year, comparing it to the total number of cases and grouped by categories of offenses.
+  - `exp_ALL_BasicDataAnalysis.ipynb`: Some simple analysis to understand the provided datasets better.
+  - `exp_DM_BS_AgeGroupAnalysis.ipynb`: Analysis of suspect ages and permutation test.
+  - `exp_DM_PredictingCaseNumbersWithModels.ipynb`: Prediction of the total number of cases for 2023 (not yet officially available) with regression models.
+  - `exp_RA_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
+  - `exp_DM_RA_ClearanceRateAnalysis.ipynb`: Analysis of the clearance rates for each year, comparing it to the total number of cases and grouped by categories of offenses.
 - **doc**: Stores papers and figures related to the project.
-  - `ChaosInOrder`: A directory for our paper.
+  - `InOrderChaos`: A directory for our paper.
     - `paper.tex`: LaTeX source file for the paper.
   - `fig`: Contains Python scripts and PDF files for shared figures.
     - `introduction_plot.pdf`: Generated figure displaying the main data from the files (Total number of cases, suspect numbers, victim numbers and clearance rates).
@@ -37,6 +37,8 @@ For this project, we used multiple datasets obtained from [*Bundeskriminalamt*](
 
   - **Victims**: Provides information on victims, including their sex and their number per offence distinguished by age categories.
  
+  - **Development**: Includes information about case numbers and clearance rates compared to the previous year.
+ 
 
 ## Reproducing the Analysis
 
@@ -54,10 +56,10 @@ To reproduce the analysis and explore the findings in your own environment, foll
     cd Order-in-Chaos-Understanding-Criminal-Patterns-in-Germany
     ```
 
-3. **Open the notebook** (e.g., `exp_ALL_001_BasicDataAnalysis.ipynb`) in a Jupyter environment. If you prefer, you can use platforms like Google Colab for easy cloud-based notebook execution.
+3. **Open the notebook** (e.g., `exp_ALL_BasicDataAnalysis.ipynb`) in a Jupyter environment. If you prefer, you can use platforms like Google Colab for easy cloud-based notebook execution.
 
 
-4. Download datasets from the *dat* directory in this repository and upload them to your analysis environment (e.g., Google Colab). Ensure that the notebook cells loading data reference the correct names, making modifications if using different names from the originals.
+4. **Download datasets** from the *dat* directory in this repository and upload them to your analysis environment (e.g., Google Colab). Ensure that the notebook cells loading data reference the correct names, making modifications if using different names from the originals.
 
 Remember to run the notebook cells sequentially.
 
