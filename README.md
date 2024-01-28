@@ -37,6 +37,8 @@ For this project, we used multiple datasets obtained from [*Bundeskriminalamt*](
 
   - **Victims**: Provides information on victims, including their sex and their number per offence distinguished by age categories.
  
+  - **Development**: Includes information about case numbers and clearance rates compared to the previous year.
+ 
 
 ## Reproducing the Analysis
 
