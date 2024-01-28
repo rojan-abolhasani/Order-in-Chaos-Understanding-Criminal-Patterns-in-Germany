@@ -10,7 +10,7 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
   - `exp_ALL_BasicDataAnalysis.ipynb`: Some simple analysis to understand the provided datasets better.
   - `exp_DM_BS_AgeGroupAnalysis.ipynb`: Analysis of suspect ages and permutation test.
   - `exp_DM_PredictingCaseNumbersWithModels.ipynb`: Prediction of the total number of cases for 2023 (not yet officially available) with regression models.
-  - `exp_RA_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
+  - `exp_RA_TimeSeriesAnalysis.ipynb`: Time series analysis and forecasting
   - `exp_DM_RA_ClearanceRateAnalysis.ipynb`: Analysis of the clearance rates for each year, comparing it to the total number of cases and grouped by categories of offenses.
 - **doc**: Stores the paper and figures related to the project.
   - `InOrderChaos`: A directory for our paper.
