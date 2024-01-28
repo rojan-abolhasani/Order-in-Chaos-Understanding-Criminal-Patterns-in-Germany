@@ -7,11 +7,11 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
 
 - **dat**: Includes datasets, notably our crime statistics datasets obtained from [*Bundeskriminalamt*](https://www.bka.de/EN/CurrentInformation/Statistics/PoliceCrimeStatistics/policecrimestatistics_node.html). For detailed information on the datasets, refer to the [Datasets](#datasets) section below.
 - **exp**: Includes Jupyter notebooks for detailed experiments.
-  - `exp_ALL_001_BasicDataAnalysis.ipynb`: Some simple analysis to understand the provided datasets better.
-  - `exp_DM_BS_001_AgeGroupAnalysis.ipynb`: Analysis of suspect ages and permutation test.
-  - `exp_DM_001_PredictingCaseNumbersWithModels.ipynb`: Prediction of the total number of cases for 2023 (not yet officially available) with regression models.
-  - `exp_RA_001_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
-  - `exp_DM_RA_001_ClearanceRateAnalysis.ipynb`: Analysis of the clearance rates for each year, comparing it to the total number of cases and grouped by categories of offenses.
+  - `exp_ALL_BasicDataAnalysis.ipynb`: Some simple analysis to understand the provided datasets better.
+  - `exp_DM_BS_AgeGroupAnalysis.ipynb`: Analysis of suspect ages and permutation test.
+  - `exp_DM_PredictingCaseNumbersWithModels.ipynb`: Prediction of the total number of cases for 2023 (not yet officially available) with regression models.
+  - `exp_RA_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
+  - `exp_DM_RA_ClearanceRateAnalysis.ipynb`: Analysis of the clearance rates for each year, comparing it to the total number of cases and grouped by categories of offenses.
 - **doc**: Stores papers and figures related to the project.
   - `InOrderChaos`: A directory for our paper.
     - `paper.tex`: LaTeX source file for the paper.
