@@ -32,12 +32,14 @@ For this project, we used multiple datasets obtained from [*Bundeskriminalamt*](
 - **2014 to 2022**: Data for these years is stored in Excel files, providing more detailed information. The files are categorized into three tables:
 
   - **Case Basic Table**: Includes the offence key, offence category name, number of recorded cases, distribution of crime scenes according to the number of inhabitants in the area, clearance rate in percentage, and the number of non-German suspects.
+    
+  - **Development**: Includes information about case numbers and clearance rates compared to the previous year.
 
   - **Suspects**: Provides information on suspects, including their sex and their number per offence distinguished by age categories.
 
   - **Victims**: Provides information on victims, including their sex and their number per offence distinguished by age categories.
  
-  - **Development**: Includes information about case numbers and clearance rates compared to the previous year.
+ 
  
 
 ## Reproducing the Analysis
