@@ -12,7 +12,7 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
   - `exp_DM_PredictingCaseNumbersWithModels.ipynb`: Prediction of the total number of cases for 2023 (not yet officially available) with regression models.
   - `exp_RA_TimeSeriesAnalysis.ipynb`: Time series analysis and forcasting
   - `exp_DM_RA_ClearanceRateAnalysis.ipynb`: Analysis of the clearance rates for each year, comparing it to the total number of cases and grouped by categories of offenses.
-- **doc**: Stores papers and figures related to the project.
+- **doc**: Stores the paper and figures related to the project.
   - `InOrderChaos`: A directory for our paper.
     - `paper.tex`: LaTeX source file for the paper.
   - `fig`: Contains Python scripts and PDF files for shared figures.
