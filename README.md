@@ -15,6 +15,7 @@ Crime prevention and criminal justice are pressing concerns in contemporary soci
 - **doc**: Stores the paper and figures related to the project.
   - `InOrderChaos`: A directory for our paper.
     - `report_final.tex`: LaTeX source file for the paper.
+    - `report.zip`: LaTeX source file for the paper with style files and figs. 
   - `fig`: Contains Python scripts and PDF files for shared figures.
     - `introduction_plot.pdf`: Generated figure displaying the main data from the files (Total number of cases, suspect numbers, victim numbers and clearance rates).
     - `prediction_models.pdf`: Generated figure showing the performance of different regression models fitted to the total case numbers.
